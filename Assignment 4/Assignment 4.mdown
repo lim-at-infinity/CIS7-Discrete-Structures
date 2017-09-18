@@ -1,0 +1,35 @@
+\\# CIS 7 - Discrete Structures - Assignment 4
+\\Brian Lim
+
+\\Question 1 - p->q to q'->p'
+
+1. q'->p'
+2. (q')'vp' :: imp
+3. qvp' :: dn
+4. p'vq :: comm
+5. p->q :: imp
+
+\\Question 2 - (p->r) ^ (q->r) <=> (p v q) -> r
+
+1. (p->r) ^ (q->r) <=> (p v q) -> r
+2. (p'vr)^(q'^r) :: imp
+3. (rvp') ^ (rvq) :: dis
+4. (p'^q')vr :: comm
+5. (pvq)'vr :: De Morgan
+6. (pvq)->r :: impp
+
+\\Question 3 - (A'vB')vC
+
+1. (A'vB')vC
+2. (A ^ B)'vC :: De Morgan
+3. (A ^ B)->C :: imp
+
+\\Question 4 - L^(D'->L')->D
+
+1. L^(D'->L')->D
+2. L^(D')'vL' :: imp
+3. L^DvL' :: dn
+4. L^L'vD :: comm
+5. L^L->D :: imp
+6. D :: mp
+
