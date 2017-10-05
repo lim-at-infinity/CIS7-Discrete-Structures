@@ -1,0 +1,50 @@
+//CIS7 Discrete Structures
+//Assignment 6
+//Brian Lim
+
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int num;
+    char choice = 'y';
+    
+    while(choice == 'y')
+    {
+        cout << "Enter a number: ";
+        cin >> num;
+        
+        if (num % 2 == 0)
+        {
+            cout << num << " is even\n\n";
+        }
+        else
+        {
+            cout << num << " is odd\n\n";
+        }
+        cout << "Enter \'y\' to do again or \'q\' to exit: ";
+        cin >> choice;
+        cout << endl;
+    }
+    
+    cout << "Come back again soon";
+  
+    
+    return 0;
+}
+
+//=================================================================
+//OUTPUT:
+/*
+Enter a number: 10 
+10 is even 
+Enter 'y' to do again or 'q' to exit: y 
+
+Enter a number: 11 
+11 is odd 
+Enter 'y' to do again or 'q' to exit: q 
+
+Come back again soon 

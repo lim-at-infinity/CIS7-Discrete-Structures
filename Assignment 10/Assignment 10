@@ -1,0 +1,51 @@
+//CIS7 - Discrete Structures
+//Assignment 10
+//Brian Lim
+
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int num;
+    
+    cout << "Enter a number: ";
+    cin >> num; 
+    
+    cout << "Here's a list of your number's prime factorizations:\n";
+    while(num%2 == 0)
+    {
+        num = num/2;
+        cout << num << endl;
+    }
+    
+    for (int i = 3; i <= sqrt(num); i = i+2)
+    {
+        while (num%i == 0)
+        {
+            num = num/i;
+            cout << num << endl;
+        }
+    }
+    
+    if (num > 2)
+    {
+        cout << num << endl;
+    }
+        
+
+    return 0;
+}
+
+//===================================================================
+//OUTPUT:
+/*
+Enter a number: 500 Here's a list of your number's prime factorizations: 
+250 
+125 
+25 
+5 
+1
+*/

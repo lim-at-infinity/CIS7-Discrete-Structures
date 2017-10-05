@@ -1,0 +1,67 @@
+//CIS7 Discrete Structures
+//Assignment 7
+//Brian Lim
+
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+
+
+
+int main()
+{
+    int num;
+    int count = 0;
+    int guess;
+    
+    cout << "Enter a number: ";
+    cin >> num;
+    cout << endl;
+    
+    cout << "Guess how many prime factors are in your number: ";
+    cin >> guess;
+    
+    cout << "Here's your factorization:\n\n";
+    while(num%2 == 0)
+    {
+        num = num/2;
+        cout << num << endl;
+        count++;
+    }
+    
+    for (int i = 3; i <= sqrt(num); i = i+2)
+    {
+        while (num%i == 0)
+        {
+            num = num/i;
+            cout << num << endl;
+            count++;
+        }
+    }
+    
+    if (num > 2)
+    {
+        cout << num << endl;
+        count++;
+    }
+    
+    cout << endl;
+    cout << "There are " << count << " factors for your number.\n";
+    if (guess != count)
+        cout << "Better luck next time.";
+    else
+        cout << "You're a genius!";
+        
+    return 0;
+}
+
+//====================================================================
+/*
+Enter a number: 200 
+Guess how many prime factors are in your number: 5 
+Here's your factorization: 100 50 25 5 1 
+
+There are 5 factors for your number. 
+You're a genius! 
+*/
