@@ -1,0 +1,67 @@
+//CIS7 - Discrete Structures
+//Assignment 7
+//Brian Lim
+
+- [1]  Prove:  If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.  Indicate which method of proof you used
+
+By Direct Proof, assume if n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares
+n^2 = a^2 + b^2
+
+n = 25
+25 = 5^2 and  25 = 4^2 + 3^2
+
+n = 100
+100 = 10^2 and 100 = 6^2 + 8^2
+
+n = 169
+169 = 13^2 and 169 = 12^2 + 5^2
+
+- [2]  Prove:  The sum of two odd integers is even.  Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1	
+By Direct Proof, assume the sum of two odd integers is even
+
+n = 2x + 1, m = 2y + 1
+
+n + m = (2x + 1) + (2y + 1)
+
+2x + 2y + 2
+
+2(x + y + 1)
+
+z = (x + y + 1)
+
+2z
+
+
+- [3]  Prove:  The sum of an even integer and it's square is even
+
+2n + (2n)^2
+
+2n + (2n) (2n) = 2m
+
+2n + 4n^2
+
+2(n + 2n^2) = 2m
+
+2y = 2m ; y = (n + 2n^2)
+
+
+- [4]  Prove by Contradiction: If n squared is odd, then n is odd
+By Contradiction; assume n is an integer and n^2 is odd, but that n is odd
+
+n = 2n + 1
+
+n^2 = (2n + 1)^2
+
+n^2 = 2n
+
+(2n + 1)(2n + 1) = 2n
+
+4n^2 + 4n + 1
+
+4n(n + 1) + 1
+
+m = n + 1
+
+4nm + 1 = 2n
+
+n^2 = 2m + 1, therefor n^2 is even; this is impossible since n^2 is odd

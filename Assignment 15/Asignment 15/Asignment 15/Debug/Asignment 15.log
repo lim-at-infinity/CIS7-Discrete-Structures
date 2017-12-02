@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(89): error C4716: 'opTwo': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(90): error C4716: 'opThree': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(88): error C4716: 'opOne': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(25): error C4700: uninitialized local variable 'choice' used
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(93): error C4716: 'opSix': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(91): error C4716: 'opFour': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(92): error C4716: 'opFive': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(94): error C4716: 'opSeven': must return a value
+c:\users\brian\onedrive\desktop\classes\fall 2017\cis7\cis7-discrete-structures-master\assignment 15\asignment 15\asignment 15\main.cpp(95): error C4716: 'opEight': must return a value
